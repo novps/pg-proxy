@@ -7,3 +7,4 @@ COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 #Declare Environment Variables
 ENV BACKEND_HOST=
 ENV BACKEND_PORT=
+ENV INCOMING_LIMIT=
